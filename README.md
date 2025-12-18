@@ -11,7 +11,7 @@ The project follows a **traditional MVC architecture** and is compatible with **
 ---
 
 ### Assignment Screenshot:
-![Assignment Screenshot](Assingmentscreenshot.png)
+![Assignment Screenshot](AssingmentScreenshot.png)
 
 
 ## 🛠 Technologies Used
