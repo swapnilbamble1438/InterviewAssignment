@@ -93,7 +93,7 @@ MySQL
 ## 🔄 Database Change Required (IMPORTANT)
 
 > **Database configuration must be updated after importing the project.**
-paste queries from MySql Queries File.
+** paste queries from MySql Queries File.
 
 Update database connection details in code:
 
@@ -106,11 +106,6 @@ Username
 
 Password
 
-Example:
-
-java
-Copy code
-jdbc:mysql://localhost:3306/bankdb
 ⚠️ Application will not run until database details are updated.
 
 ▶ How to Run the Project (Maven)
@@ -125,8 +120,11 @@ Update database configuration (mandatory)
 Run the project on Tomcat
 
 Access the application:
+using url:
+http://localhost:8080/project-name/index.jsp     
+or    
+http://localhost:8080/project-name
+or 
+simply use Run on Server option by right clicking on project
 
-bash
-Copy code
-http://localhost:8080/<project-name>/index.jsp  or     http://localhost:8080/<project-name>
 ✅ No manual JAR addition is required – all dependencies are managed via Maven.
