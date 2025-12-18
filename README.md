@@ -20,33 +20,25 @@ The project follows a **traditional MVC architecture** and is compatible with **
 - Apache POI (Excel export)
 - iText (PDF export)
 
----
 
 ## 📂 Project Structure
-📂 src
-|-- main
-    |-- java
-    |   |-- com.controller
-    |   |   |-- TransactionServlet.java
-    |   |   |-- ExportServlet.java
-    |   |
-    |   |-- com.dao
-    |   |   |-- TransactionDAO.java
-    |   |
-    |   |-- com.entity
-    |       |-- Transaction.java
-    |
-    |-- webapp
-        |-- index.jsp
-        |
-        |-- jsp
-        |   |-- result.jsp
-        |
-        |-- WEB-INF
-            |-- web.xml
-
-
----
+📂src
+ └── main
+     ├── java
+     │     ├── com.controller
+     │     │        ├── TransactionServlet.java
+     │     │        └── ExportServlet.java
+     │     ├── com.dao
+     │     │        └── TransactionDAO.java
+     │     └── com.entity
+     │              └── Transaction.java
+     │
+     └── webapp
+           ├── jsp
+           │    ├── index.jsp
+           │    └── result.jsp
+           └── WEB-INF
+                └── web.xml
 
 ## 🧾 Features
 - Multiple search filters:
