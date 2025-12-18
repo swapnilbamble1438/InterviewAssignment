@@ -22,9 +22,12 @@ The project follows a **traditional MVC architecture** and is compatible with **
 
 
 ## 📂 Project Structure
+
 📂src
  └── main
+ 
      ├── java
+     
      │     ├── com.controller
      │     │        ├── TransactionServlet.java
      │     │        └── ExportServlet.java
