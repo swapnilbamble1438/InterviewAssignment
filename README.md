@@ -23,23 +23,28 @@ The project follows a **traditional MVC architecture** and is compatible with **
 ---
 
 ## 📂 Project Structure
-src
+📂 src
 └── main
-├── java
-│ ├── com.controller
-│ │ ├── TransactionServlet.java
-│ │ └── ExportServlet.java
-│ ├── com.dao
-│ │ └── TransactionDAO.java
-│ └── com.entity
-│ └── Transaction.java
-│
-└── webapp
-├── index.jsp
-├── jsp
-│ └── result.jsp
-└── WEB-INF
-└── web.xml
+    ├── java
+    │   ├── com.controller
+    │   │   ├── TransactionServlet.java
+    │   │   └── ExportServlet.java
+    │   │
+    │   ├── com.dao
+    │   │   └── TransactionDAO.java
+    │   │
+    │   └── com.entity
+    │       └── Transaction.java
+    │
+    └── webapp
+        ├── index.jsp
+        │
+        ├── jsp
+        │   └── result.jsp
+        │
+        └── WEB-INF
+            └── web.xml
+
 
 yaml
 Copy code
