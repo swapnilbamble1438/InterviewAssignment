@@ -10,6 +10,9 @@ The project follows a **traditional MVC architecture** and is compatible with **
 
 ---
 
+### Assignment Screenshot:
+!(Assingmentscreenshot.png)
+
 ## 🛠 Technologies Used
 - Java 8
 - JSP & Servlets
